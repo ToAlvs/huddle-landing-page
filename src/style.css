@@ -87,7 +87,7 @@ main {
     position: relative;
 }
 
-.grow-together {
+.grow-together, .flowing-conversations, .your-users {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -95,61 +95,18 @@ main {
     width: 80%;
     box-shadow: 0px 0px 4px 1px hsl(208, 11%, 90%);
     border-radius: 10px;
+    
 
     p {
         color: hsl(208, 11%, 55%);
     }
 }
 
-.grow-together .text {
+.grow-together .text, .flowing-conversations .text, .your-users .text {
     width: 40%;
 }
 
-.grow-together img {
-    width: 30%;
-}
-
-.flowing-conversations {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 20px 30px 50px;
-    width: 80%;
-    box-shadow: 0px 0px 4px 1px hsl(208, 11%, 90%);
-    border-radius: 10px;
-
-    p {
-        color: hsl(208, 11%, 55%);
-    }
-}
-
-.flowing-conversations .text {
-    width: 40%;
-}
-
-.flowing-conversations img {
-    width: 30%;
-}
-
-.your-users {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 20px 30px 50px;
-    width: 80%;
-    box-shadow: 0px 0px 4px 1px hsl(208, 11%, 90%);
-    border-radius: 10px;
-
-    p {
-        color: hsl(208, 11%, 55%);
-    }
-}
-
-.your-users .text {
-    width: 40%;
-}
-
-.your-users img {
+.grow-together img, .flowing-conversations img, .your-users img {
     width: 30%;
 }
 
@@ -208,7 +165,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 100px; */
     width: 100%;
 }
 
