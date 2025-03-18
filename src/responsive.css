@@ -1,0 +1,151 @@
+@media (max-width: 900px) {
+    footer{
+        gap: 20px;
+    }
+
+    .us{
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 400px;
+    }
+
+    .logo{
+        align-self: center;
+    }
+
+    .copy{
+        align-self: center;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        gap: 100px;
+        padding: 20px;
+    }
+    .presentation{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .presentation .presentation-text{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        h1{
+            font-weight: 600;
+            font-size: 30px;
+        }
+    }
+    
+    .presentation .presentation-image{
+        width: 90%;
+    }
+
+    .presentation .started{
+        width: 70%;
+    }
+
+   main{
+    margin-bottom: 300px;
+   }
+
+    .grow-together{
+        flex-direction: column-reverse;
+        padding: 20px;
+        min-height: 500px;
+        width: 90%;
+        gap: 30px;
+    }
+
+    .grow-together .text{
+        width: 100%;
+        text-align: center;
+        h2{
+            font-weight: 600;
+        }
+    }
+
+    .grow-together img {
+        width: 100%;
+    }
+
+    .flowing-conversations{
+        flex-direction: column;
+        padding: 20px;
+        min-height: 500px;
+        width: 90%;
+        gap: 30px;
+    }
+
+    .flowing-conversations .text{
+        width: 100%;
+        text-align: center;
+        h2{
+            font-weight: 600;
+        }
+    }
+
+    .flowing-conversations img {
+        width: 100%;
+    }
+
+    .your-users{
+        flex-direction: column-reverse;
+        padding: 20px;
+        min-height: 500px;
+        width: 90%;
+        gap: 30px;
+    }
+
+    .your-users .text{
+        width: 100%;
+        text-align: center;
+        h2{
+            font-weight: 600;
+        }
+    }
+
+    .your-users img {
+        width: 100%;
+    }
+
+    .build-community{
+        min-width: 300px;
+        width: 95%;
+        bottom: -23%;
+        h2{
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .started{
+            width: 70%;
+        }
+    }
+
+    footer{
+        padding: 100px 20px 50px;
+        font-weight: 300;
+    }
+
+    .logo{
+        align-self: flex-start;
+    }
+
+    .us{
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .contacts{
+        width: 90%;
+    }
+
+    .links ul{
+        column-count: 1;
+    }
+
+    .social-links{
+        align-self: center;
+    }
+}
